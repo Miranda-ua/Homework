@@ -97,6 +97,35 @@ ul, ol {
   align-items: center;
   width: 100%; }
 
+.chapter-nav {
+  background-color: #f7f7f7f7;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  padding: 0 8px; }
+
+.chapter-nav__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  width: 100%;
+  list-style: none; }
+
+.chapter-nav__link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none; }
+
+.chapter-nav-item_img > .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+
 @media (max-width: 767px) {
   .page-nav__controls {
     display: flex; }
